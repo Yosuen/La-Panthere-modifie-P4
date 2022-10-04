@@ -677,7 +677,19 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.bigger-font {
+    font-size: 24px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
 .tight-width-whitespace {
